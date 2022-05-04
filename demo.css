@@ -1,0 +1,39 @@
+html, body, aside {
+	display: block;
+}
+body {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	background-size: cover;	
+}
+aside {
+	width: 233px;
+	min-height: 500px;
+}
+aside.right {
+	margin-left: auto;
+}
+a {
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.body {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+@media screen and (max-width: 1000px) {
+	body {
+
+	}
+}
+@media screen and (max-width: 767px) {
+	body {
+		padding: 10px;
+	}
+	aside {
+		width: auto;
+	}
+}
